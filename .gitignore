@@ -1,0 +1,25 @@
+# Dependencies
+/node_modules
+/dist
+/tmp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime files
+.npm
+.eslintcache
+*.tgz
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# 🔑 Credentials & Environment (CRITICAL SECURITY SECTION)
+.env
+*.env.*
+# Your actual JSON key file MUST be listed here:
+ocr-service-key.json
